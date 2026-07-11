@@ -1,0 +1,30 @@
+{
+  "food": [
+    {
+      "name": "chicken Dum Biryani",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJroswsgQ_4PA_B5INSnHPEQ9rYiSuvUC93sTFco6j3w&s=10",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "name": "paneer butter masala",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwRO9423culvRaDaBBr4Rf0SOpclL3L0s94fC8C-_X5g&s=10"
+    },
+    {
+      "id": "4",
+      "name": "chicken 65",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IqbAwrQghS64e4DHxqAVdidcaVnFKCF0dRHap3sWeQ&s=10"
+    },
+    {
+      "id": "5",
+      "name": "butter naan",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo3adK01j80zT1a5rQdm4XAcwkc1jo8W1-OWEw7Af_Hg&s=10"
+    },
+    {
+      "name": "chicken pulav",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSahb9EapWUlF7aF_1jeVZ7ocMeJkVViTJ0nll28NJMAw&s=10",
+      "id": "2somgGwS8QA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
