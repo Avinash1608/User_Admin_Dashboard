@@ -2,7 +2,7 @@ let container = document.getElementById("container");
 
 
 async function fetchData() {
-    let response = await fetch("http://localhost:3001/food")
+    let response = await fetch("https://crudapp-7j6r.onrender.com/food")
     try {
         if (!response.ok) {
             throw new Error("Error in fetching data");
@@ -56,7 +56,7 @@ function showData(data) {
 
 
 async function deleteData(id) {
-    let response = await fetch(`http://localhost:3001/food/${id}`, {
+    let response = await fetch(`https://crudapp-7j6r.onrender.com/food/${id}`, {
         "method": "DELETE"
     })
 
@@ -80,7 +80,7 @@ async function editData(id) {
     let foodName = document.getElementById("name")
     let image = document.getElementById("image")
 
-    let response = await fetch(`http://localhost:3001/food/${id}`)
+    let response = await fetch(`https://crudapp-7j6r.onrender.com/food/${id}`)
     try {
         if (!response.ok) {
             throw new Error("Error in fetching the data into fields");
@@ -111,7 +111,7 @@ async function saveData() {
         "image": image.value
     }
 
-    let url=foodId.value?`http://localhost:3001/food/${foodId.value}`:"http://localhost:3001/food";
+    let url=foodId.value?`https://crudapp-7j6r.onrender.com/food/${foodId.value}`:"https://crudapp-7j6r.onrender.com/food";
     let method=foodId.value?"PUT":"POST";
 
     let response = await fetch(url, {

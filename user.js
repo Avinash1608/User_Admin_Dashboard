@@ -2,7 +2,7 @@ let container = document.getElementById("container");
 
 
 async function fetchData() {
-    let response = await fetch("http://localhost:3001/food")
+    let response = await fetch("https://crudapp-7j6r.onrender.com/food")
     try {
         if (!response.ok) {
             throw new Error("Error in fetching data");
